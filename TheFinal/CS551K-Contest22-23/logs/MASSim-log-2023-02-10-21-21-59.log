@@ -1,0 +1,36 @@
+[ NORMAL  ]  ##   Starting tournament in 5 seconds.
+[ NORMAL  ]  ##   Configuring random seed: 35
+[ NORMAL  ]  ##   config.randomFail: 0
+[ NORMAL  ]  ##   config.attachLimit: 10
+[ NORMAL  ]  ##   config.clearSteps: 3
+[ NORMAL  ]  ##   config.clearEnergyCost: 30
+[ NORMAL  ]  ##   config.disableDuration: 4
+[ NORMAL  ]  ##   config.maxEnergy: 300
+[ NORMAL  ]  ##   config.blockTypes: [2,2] -> 2
+[ NORMAL  ]  ##   config.dispensersBounds: [5,5]
+[ NORMAL  ]  ##   config.tasks.duration: [100,200]
+[ NORMAL  ]  ##   config.tasks.size: [1,2]
+[ NORMAL  ]  ##   config.tasks.probability: 0.25
+[ NORMAL  ]  ##   config.events.chance: 0
+[ NORMAL  ]  ##   config.events.radius: 3 - 5
+[ NORMAL  ]  ##   config.events.warning: 5
+[ NORMAL  ]  ##   config.events.create: -3 - 1
+[ NORMAL  ]  ##   config.events.perimeter: 2
+[ NORMAL  ]  ##   Created dispenser(14,7,b0)
+[ NORMAL  ]  ##   Created dispenser(0,8,b0)
+[ NORMAL  ]  ##   Created dispenser(15,12,b0)
+[ NORMAL  ]  ##   Created dispenser(7,24,b0)
+[ NORMAL  ]  ##   Created dispenser(8,18,b0)
+[ NORMAL  ]  ##   Created dispenser(20,5,b1)
+[ NORMAL  ]  ##   Created dispenser(11,11,b1)
+[ NORMAL  ]  ##   Created dispenser(23,4,b1)
+[ NORMAL  ]  ##   Created dispenser(1,27,b1)
+[ NORMAL  ]  ##   Created dispenser(8,8,b1)
+[ NORMAL  ]  ##   Running setup actions
+[ NORMAL  ]  ##   Simulation at step 0
+[ NORMAL  ]  ##   No valid action available in time for agent A2.
+[ NORMAL  ]  ##   No valid action available in time for agent A3.
+[ NORMAL  ]  ##   No valid action available in time for agent A1.
+[ NORMAL  ]  ##   No valid action available in time for agent A4.
+[ NORMAL  ]  ##   No valid action available in time for agent A5.
+[ NORMAL  ]  ##   Simulation at step 1

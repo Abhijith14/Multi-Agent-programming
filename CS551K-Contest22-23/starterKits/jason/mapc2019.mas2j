@@ -1,0 +1,17 @@
+MAS macp2019 {
+
+    infrastructure: Centralised
+	
+	environment: jason.eis.EISAdapter
+
+    agents:
+		connectionA #5;
+		//connectionA1 at "asl/connectionA_1.asl";    
+		//connectionA2 at "asl/connectionA_2.asl";
+		//connectionA3 at "asl/connectionA_MAPC2021_LIARA3.asl";
+		//connectionA4 at "asl/connectionA_4.asl";
+		//connectionA5 at "asl/connectionA_5.asl";
+		
+		aslSourcePath: "asl/";
+}
+

@@ -1,0 +1,154 @@
+[ NORMAL  ]  ##   Starting tournament in 5 seconds.
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A1 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   Configuring random seed: 20
+[ NORMAL  ]  ##   config.randomFail: 0
+[ NORMAL  ]  ##   config.attachLimit: 10
+[ NORMAL  ]  ##   config.clearSteps: 3
+[ NORMAL  ]  ##   config.clearEnergyCost: 30
+[ NORMAL  ]  ##   config.disableDuration: 4
+[ NORMAL  ]  ##   config.maxEnergy: 300
+[ NORMAL  ]  ##   config.blockTypes: [2,2] -> 2
+[ NORMAL  ]  ##   config.dispensersBounds: [5,5]
+[ NORMAL  ]  ##   config.tasks.duration: [100,200]
+[ NORMAL  ]  ##   config.tasks.size: [1,2]
+[ NORMAL  ]  ##   config.tasks.probability: 0.25
+[ NORMAL  ]  ##   config.events.chance: 0
+[ NORMAL  ]  ##   config.events.radius: 3 - 5
+[ NORMAL  ]  ##   config.events.warning: 5
+[ NORMAL  ]  ##   config.events.create: -3 - 1
+[ NORMAL  ]  ##   config.events.perimeter: 2
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-1.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-2.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-3.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-4.
+[ NORMAL  ]  ##   Created dispenser(23,20,b0)
+[ NORMAL  ]  ##   Created dispenser(5,26,b0)
+[ NORMAL  ]  ##   Created dispenser(21,27,b0)
+[ NORMAL  ]  ##   Created dispenser(3,26,b0)
+[ NORMAL  ]  ##   Created dispenser(7,21,b0)
+[ NORMAL  ]  ##   Created dispenser(6,16,b1)
+[ NORMAL  ]  ##   Created dispenser(21,15,b1)
+[ NORMAL  ]  ##   Created dispenser(25,3,b1)
+[ NORMAL  ]  ##   Created dispenser(18,22,b1)
+[ NORMAL  ]  ##   Running setup actions
+[ NORMAL  ]  ##   Simulation at step 0
+[ ERROR  ] java.lang.NullPointerException: Cannot invoke "massim.AgentManager$AgentProxy.requestAction(massim.protocol.messages.RequestActionMessage)" because the return value of "java.util.Map.get(Object)" is null : [massim.AgentManager.lambda$requestActions$4(AgentManager.java:104), java.base/java.lang.Thread.run(Thread.java:1589)][ ERROR  ] java.lang.NullPointerException: Cannot invoke "massim.AgentManager$AgentProxy.requestAction(massim.protocol.messages.RequestActionMessage)" because the return value of "java.util.Map.get(Object)" is null : [massim.AgentManager.lambda$requestActions$4(AgentManager.java:104), java.base/java.lang.Thread.run(Thread.java:1589)][ ERROR  ] java.lang.NullPointerException: Cannot invoke "massim.AgentManager$AgentProxy.requestAction(massim.protocol.messages.RequestActionMessage)" because the return value of "java.util.Map.get(Object)" is null : [massim.AgentManager.lambda$requestActions$4(AgentManager.java:104), java.base/java.lang.Thread.run(Thread.java:1589)][ ERROR  ] java.lang.NullPointerException: Cannot invoke "massim.AgentManager$AgentProxy.requestAction(massim.protocol.messages.RequestActionMessage)" because the return value of "java.util.Map.get(Object)" is null : [massim.AgentManager.lambda$requestActions$4(AgentManager.java:104), java.base/java.lang.Thread.run(Thread.java:1589)][ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A4 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A3 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A5 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=A2 password=1 address=127.0.0.1
+[ ERROR  ]  ##   Got invalid authentication from: 127.0.0.1

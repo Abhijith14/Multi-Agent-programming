@@ -1,0 +1,8 @@
+- changed "teamSize" : 1 in server/conf/SampleConfigOneTeam.json
+- changed teams A.json
+- "entities" : [{"standard" : 1}], in server/conf/SampleConfigOneTeam.json
+- starterKits/jason/conf/eismassimconfig.json
+        {"name": "connectionA2", "username": "A2", "password": "1", "print-iilang": false, "print-json": false},
+    {"name": "connectionA3", "username": "A3", "password": "1", "print-iilang": false, "print-json": false},
+    {"name": "connectionA4", "username": "A4", "password": "1", "print-iilang": false, "print-json": false},
+    {"name": "connectionA5", "username": "A5", "password": "1", "print-iilang": false, "print-json": false}

@@ -1,0 +1,108 @@
+/* Initial beliefs and rules */
+random_dir(DirList,RandomNumber,Dir) :- (RandomNumber <= 0.25 & .nth(0,DirList,Dir)) | (RandomNumber <= 0.5 & .nth(1,DirList,Dir)) | (RandomNumber <= 0.75 & .nth(2,DirList,Dir)) | (.nth(3,DirList,Dir)).
+
+occupied(false).
+
+edge_loc(0,0, n).
+edge_loc(0,0, e).
+edge_loc(0,0, w).
+edge_loc(0,0, s).
+
+
+is_edge(false, n).
+is_edge(false, e).
+is_edge(false, w).
+is_edge(false, s).
+
+position(0,0).
+is_action_move(false).
+
+/* Initial goals */
+
+!start.
+
+/* Plans */
+
++!start : true <- 
+	.print("hello massim world.").
+
+
++step(X) : true <-
+	.print("Received step percept").
+
+
++actionID(STEP) : is_edge(false, n) <- 
+	.print("Determining my action");
+	move(n).
+
+
+
++actionID(STEP) : is_edge(true, n)  <-
+	//!move_disactivated; // doesnt work
+	//move(s).
+	skip.
+
+
+//@lastaction[atomic]
++lastActionResult(Fail_code) : (Fail_code==failed_forbidden) & is_edge(false, n) <-
+	.print("The last action failed because it was forbidden");
+	?position(AgentX, AgentY);
+	-is_edge(false, n);
+	+is_edge(true, n);
+	-edge_loc(EdgeX,EdgeY, n);
+	+edge_loc(AgentX,AgentY, n).
+
+
+//@lastaction[atomic]
++lastActionResult(Fail_code) : (Fail_code==success) & is_edge(false, n) <-// & lastAction(move) <-
+	.print("The last action Code is ", Fail_code);
+	!update_position(n).
+
+//+lastActionResult(Fail_code) : (Fail_code==success) & is_edgeN(true) & position(Ax, Ay) & edgeN_loc(Ax, Ay) <-
+//	.print("At the NORTH EDGE !!!").
+	//!update_position(n).
+
+
++!update_position(DIR) : (DIR==n) <-
+	.print("updating position");
+	?position(AgentX, AgentY);
+	-position(AgentX, AgentY);
+	+position(AgentX, AgentY-1);
+
+	.print("My position is ", AgentX, AgentY).
+
+
++!move_random : .random(RandomNumber) & random_dir([n,s,e,w],RandomNumber,Dir)
+<-	move(Dir).
+
+
++!move_to_cord(X,Y) : (X<0) <- 
+	.print("moving 1 step west ", X, Y);
+	.wait(1000);
+	move(w).
+
+
++!move_to_cord(X,Y) : (X>0) <- 
+	.print("moving 1 step east ", X, Y);
+	.wait(1000);
+	move(e).
+
+
++!move_to_cord(X,Y) : (X==0) & (Y < 0) <- 
+	.print("moving 1 step west ", X, Y);
+	.wait(1000);
+	move(n).
+
+
++!move_to_cord(X,Y) : (X==0) & (Y > 0) <- 
+	.print("moving y<0 haha ", X, Y);
+	.wait(1000);
+	move(s).
+
+
++!move_to_cord(X,Y) : (X==0) & (Y == 0) <- 
+	move(n);
+	-occupied(false);
+	+occupied(true).
+
+

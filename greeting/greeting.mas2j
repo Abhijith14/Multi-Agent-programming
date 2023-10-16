@@ -1,0 +1,21 @@
+/*
+    greeting
+    ---------------------------
+
+    Jason Project File
+
+    This file defines the initial state of the MAS
+
+    Jason 2.5.1
+    January 24, 2023 - 13:37:53
+*/
+
+MAS greeting {
+
+    infrastructure: Local
+
+    agents: 
+		bob;
+		tom;
+
+}

@@ -1,0 +1,72 @@
+{
+  "server" : {
+    "tournamentMode" : "round-robin",
+    "teamsPerMatch" : 1,
+    "teamSize" : 5,
+    "launch" : "5s",
+    "port" : 12300,
+    "backlog" : 10000,
+    "agentTimeout" : 4000,
+    "resultPath" : "results",
+    "logLevel" : "normal",
+    "logPath" : "logs",
+    "replayPath" : "replays",
+    "maxPacketLength" : 65536
+  },
+
+  "manual-mode" : [
+    ["A", "B"],
+    ["B", "C"],
+    ["A", "C"]
+  ],
+
+  "match" : [
+    {
+      "setup" : "server/conf/setup/test.txt",
+
+      "steps" : 300000000,
+      "randomSeed" : 20,
+      "randomFail" : 0,
+      "entities" : [{"standard" : 5}],
+
+      "clearSteps" : 3,
+      "clearEnergyCost" : 30,
+      "disableDuration" : 4,
+      "maxEnergy" : 300,
+      "attachLimit" : 10,
+
+      "grid" : {
+        "height" : 30,
+        "width" : 30,
+        "instructions": [
+          ["line-border", 1]
+        ],
+        "goals": {
+          "number" : 3,
+          "size" : [1,1]
+        }
+      },
+
+      "blockTypes" : [2, 2],
+      "dispensers" : [5, 5],
+
+      "tasks" : {
+        "size" : [1, 2],
+        "duration" : [100, 200],
+        "probability" : 0.25
+      },
+
+      "events" : {
+        "chance" : 0,
+        "radius" : [3, 5],
+        "warning" : 5,
+        "create" : [-3, 1],
+        "perimeter" : 2
+      }
+    }
+  ],
+
+  "teams" : {
+    "A" : "$(teams/A.json)"
+  }
+}
